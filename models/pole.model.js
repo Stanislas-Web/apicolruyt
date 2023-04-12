@@ -5,4 +5,4 @@ const userSchema = new Schema({
     libelle: { type: String, required: true },
 },{timestamps: true, versionKey: false });
 
-module.exports.User = model('User', userSchema);
+module.exports.Pole = model('Pole', userSchema);
