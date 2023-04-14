@@ -30,7 +30,7 @@ module.exports.createAgent = async (req, res) => {
     telephone: telephone,
     email: email,
     photo: photo,
-    fonction: photo,
+    fonction: fonction,
     grade: grade,
     dateNaissance: dateNaissance,
     dateEmbauche: dateEmbauche,
