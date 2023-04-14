@@ -51,10 +51,11 @@ module.exports.createAgent = async (req, res) => {
 module.exports.getAllAgent = async (req, res) => {
   const result = await Agent.find();
 
-  return res.status(200).send({
-    message: "get all agents",
-    data: result,
-  });
+  // return res.status(200).send({
+  //   message: "get all agents",
+  //   data: result,
+  // });
+  return res.status(200).send(result);
 };
 
 
