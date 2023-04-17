@@ -21,8 +21,5 @@ module.exports.createSite = async (req, res) => {
 module.exports.getAllSite = async (req, res) => {
   const result = await Site.find();
 
-  return res.status(200).send({
-    message: "get all sites",
-    data: result,
-  });
+  return res.status(200).send(result);
 };
